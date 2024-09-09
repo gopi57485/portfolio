@@ -32,7 +32,7 @@
               <a href="#skills" class="nav_link active">Skills</a>
             </li>
             <li class="nav_items">
-              <a href="#work" class="nav_link active">Work</a>
+              <a href="#work" class="nav_link active">Projects</a>
             </li>
             <li class="nav_items">
               <a href="#contact" class="nav_link active">Contact</a>
@@ -232,38 +232,43 @@
         <h2 class="section-title" data-aos="fade-down">Contact</h2>
 
         <div class="contact_container bd_grid">
-          <form action="#" class="contact_form">
+          <form action="https://api.web3forms.com/submit" method="POST" 
+            class="contact_form">
+
+            <input type="hidden" name="access_key" value="54d73a29-5643-4a3c-9a41-c2736625b77b">
+
             <input
               type="text"
+              name="name"
               placeholder="Name"
               class="control_input"
               data-aos="fade-right"
-              data-aos-delay="250"
+              data-aos-delay="250" required
             />
             <input
               type="mail"
+              name="email"
               placeholder="Email"
               class="control_input"
               data-aos="fade-right"
-              data-aos-delay="300"
+              data-aos-delay="300" required
             />
             <textarea
-              name=""
+              name="message"
               id=""
               cols="0"
               rows="10"
               class="control_input"
               data-aos="fade-right"
-              data-aos-delay="400"
+              data-aos-delay="400" required
             ></textarea>
 
-            <input
-              type="button"
-              value="Send"
-              class="control_button button"
-              data-aos="fade-right"
-              data-aos-delay="450"
-            />
+            <button 
+            type="submit" 
+            class="control_button button">Send
+          </button>
+
+            
           </form>
         </div>
       </section>
