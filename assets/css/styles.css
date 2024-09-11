@@ -314,7 +314,7 @@ img {
 }
 
 .skill_icon {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-right: var(--mb-2);
   color: var(--first-color);
 }
@@ -350,7 +350,7 @@ img {
   width: 85%;
 }
 
-/* WORK */
+/* Projects section */
 
 .work {
   text-align: center;
@@ -364,15 +364,49 @@ img {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
+ 
 }
 
 .work_img img {
   transition: 1s;
   cursor: pointer;
+  height: 240px;
+  width: 100%;
 }
 
 .work_img img:hover {
   transform: scale(1.1);
+}
+.work_img h2{
+  font-size: 20px;
+  color: #444;
+}
+.work_btn{
+  cursor: pointer;
+  display: flex;
+  gap: 0.5rem;
+  border: none;
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  border-radius: 100px;
+  font-weight: 700;
+  padding: 0.75rem 1rem;
+  font-size: 0.825rem;
+  line-height: 1rem;
+  background-color: black;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.04),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+  color: #fff;
+  margin-top: 10px;
+}
+.work_btn:hover {
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.08),
+    inset 0 0 0 1px rgba(252, 232, 3, 0.08);
+  color: #fce803;
+  transform: translate(0, -0.25rem);
+  background-color: rgba(0, 0, 0, 0.5);
+  
 }
 
 /* Contact */
