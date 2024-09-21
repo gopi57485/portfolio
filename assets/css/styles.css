@@ -223,8 +223,9 @@ img {
   width: 300px;
 }
 
-.home_img svg {
-  width: 100%;
+.home_img img {
+  width: 85%;
+
 }
 
 /* BUTTONS */
@@ -397,7 +398,7 @@ img {
     inset 0 1px 0 0 rgba(255, 255, 255, 0.04),
     inset 0 0 0 1px rgba(255, 255, 255, 0.04);
   color: #fff;
-  margin-top: 10px;
+  margin:10px 10px;
 }
 .work_btn:hover {
   box-shadow:
